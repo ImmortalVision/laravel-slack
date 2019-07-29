@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/immortalvision/laravel-slack.svg?branch=master)](https://travis-ci.org/immortalvision/laravel-slack)
-[![StyleCI](https://github.styleci.io/repos/197049199/shield?branch=master)](https://github.styleci.io/repos/197049199)
+[![StyleCI](https://github.styleci.io/repos/199508412/shield?branch=master)](https://github.styleci.io/repos/199508412)
 <a href="https://packagist.org/packages/immortalvision/laravel-slack"><img src="https://poser.pugx.org/immortalvision/laravel-slack/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/immortalvision/laravel-slack"><img src="https://poser.pugx.org/immortalvision/laravel-slack/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/immortalvision/laravel-slack"><img src="https://poser.pugx.org/immortalvision/laravel-slack/license.svg" alt="License"></a>
@@ -60,6 +60,7 @@ dd($slackClient->withIcon(':face_palm:')->send('test!'));
 ## Dependencies
 
 The library uses [Guzzle](https://github.com/guzzle/guzzle) as its HTTP communication layer.
+
 We are using [maknz/slack](https://github.com/maknz/slack) as the slack library for now.
 
 ## License
