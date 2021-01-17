@@ -18,7 +18,8 @@ class LaravelSlackServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/config/laravel-slack.php', 'slack'
+            __DIR__.'/config/laravel-slack.php',
+            'slack'
         );
         $this->app->bind('Maknz\Slack\Client', function () {
             return new Client(
