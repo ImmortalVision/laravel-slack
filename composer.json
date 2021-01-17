@@ -4,7 +4,7 @@
   "homepage": "https://imvx.org/packages",
   "type": "library",
   "require": {
-    "php": "^7.2",
+    "php": "^8.0|^7.4",
     "guzzlehttp/guzzle": "^6.3",
     "maknz/slack": "~1.7.0"
   },
